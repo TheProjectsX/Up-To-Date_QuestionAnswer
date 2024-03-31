@@ -44,7 +44,7 @@ if (clicked):
 
     if (not finalAnswer["success"]):
         st.error("Error Ocurred!")
-        st.text("Error Data:\n", finalAnswer["result"])
+        st.write("Error Data:\n", finalAnswer["result"])
     else:
         st.subheader("Your Answer:")
-        st.text(finalAnswer["result"])
+        st.write(finalAnswer["result"])

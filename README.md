@@ -31,7 +31,13 @@ Get updated Answer of Your Questions!
 
 - Direct Google Search
 
-  - Right now, the Direct Google search version gives false information sometimes. And it also takes Time to Parse the Result
+  - Right now, the Direct Google search version gives false information sometimes.
+  - But increasing the Number of Search Results most of the times gives Right Answer.
+  - This process is Time Consuming
 
 - Serper API
   - Up to now, no disadvantages found except it Needs API Key
+
+### Motivation for this Project:
+
+Nothing... Just felt like to create it, so Did!

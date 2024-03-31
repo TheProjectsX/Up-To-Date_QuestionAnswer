@@ -27,6 +27,11 @@ Get updated Answer of Your Questions!
   - Lastly Uses another Model to Format the Answer to Formal Version
   - Requires Hugging Face and Serper API Keys
 
+### Why using Double models?
+
+The first Idea was to use a Model locally, not via using API. But I did used it in the last.
+The QnA model is small, can be used locally if wanted (will update code to do that too!). But the Formal Answer converter uses a Large model, which is Just an Optional approach. We can run it without the Large model too, that's why...
+
 ### Limitations:
 
 - Direct Google Search
@@ -36,7 +41,10 @@ Get updated Answer of Your Questions!
   - This process is Time Consuming
 
 - Serper API
+
   - Up to now, no disadvantages found except it Needs API Key
+
+- Can only answer as QnA (Under one line answer). Can't answer correctly for the Questions which needs Explanations...
 
 ### Motivation for this Project:
 
